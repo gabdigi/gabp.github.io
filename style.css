@@ -62,9 +62,32 @@ body {
 	color: white;
 }
 
-.about-article p {
+.italic {
 	font-size: 1.5em;
 	font-style: italic;
+}
+
+.profil_photo {
+	margin: 20px;
+	width: 261px;
+	height: 320px;
+	border: 5px solid #58c9c7;
+	border-radius: 15px;
+}
+
+.about-article-paragraph {
+	width: 500px;
+	height: auto;
+	color: white;
+	margin: 0 auto;
+}
+
+.about-article-paragraph p {
+	padding-top: 30px;
+	font-size: 1.3em;
+	text-align: justify;
+	letter-spacing: 0.25px;
+	line-height: 1.5em;
 }
 
 #projects {
