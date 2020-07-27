@@ -8,6 +8,8 @@ body {
 	font-family: verdana, system-ui , arial, "Arial Black", Georgia, serif, sans-serif;
 }
 
+
+/****************************************** header *********************************/
 #navbar {
 	overflow: hidden;
 	position: fixed;
@@ -38,6 +40,9 @@ body {
 	font-size: 1.2rem;
 }
 
+/*****************************************header end************************************************/
+
+/****************************************section à propos de moi ************************************/
 #welcome-section {
 	padding-top: 80px;
 	height: 1080px;
@@ -53,7 +58,7 @@ body {
 }
 
 .about-article {
-	margin-top: 15%;
+	margin-top: 10%;
 	
 }
 
@@ -90,8 +95,14 @@ body {
 	line-height: 1.5em;
 }
 
+/****************************************section à propos de moi fin************************************/
+
+
+
+/****************************************section certain de mes projet ************************************/
+
 #projects {
-	height: 1080px;
+	height: 1800px;
 	width: 100%;
 	background-color: #21203a; 
 }
@@ -102,17 +113,41 @@ body {
 	background-color: #2b2b2b;
 }
 
-.project-tile {
+.project-title-0 {
 	display: flex;
 	justify-content: center;
 	color: white;
 	padding-top: 8%;
 }
 
-.project-tile h1 {
+.project-title-0 h1 {
 	font-size: 3em;
 	line-height: 1.5em;
 	border-bottom: 8px solid white;
+}
+
+.about-article-paragraph-2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.about-article-paragraph-2	p {
+	margin-top: 5%;
+	padding: 0 28%;
+	color: white;
+}
+
+.about-article-paragraph-3{
+	display: flex;
+	align-items: left;
+	justify-content: center;
+}
+
+.about-article-paragraph-3	p {
+	margin-top: 10%;
+	padding: 0 28%;
+	color: white;
 }
 
 .row {
@@ -147,6 +182,12 @@ body {
 	background: #2b2b2b;
 }
 
+.project-title {
+	width: 300px;
+	height: 50px;
+	background: #2b2b2b;
+}
+
 .project-title a {
 	max-width: 100px;
 	margin-top: 15px;
@@ -164,8 +205,34 @@ body {
 
 }
 
+.project-title-2 {
+	width: 300px;
+	height: 50px;
+	background: #2b2b2b;
+}
+
+.project-title-2 a {
+	max-width: 200px;
+    min-width: 100px;
+    text-decoration: none;
+    color: white;
+    line-height: 3em;
+    padding-left: 5.5em;
+
+}
+
+.project-title-2 a:hover {
+	text-decoration: underline;
+	text-decoration-color: #58c9c7;
+
+}
+
+/****************************************section certain de mes projet fin************************************/
+
+/*********************************************contact ********************************************************/
+
 #contact-section {
-	height: 1080px;
+	height: 540px;
 	width: 100%;
 	background-color: #2b2b2b;
 	color: white;
@@ -211,204 +278,4 @@ body {
 
 }
 
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-
-	.nav-list {
-		display: flex;
-		justify-content: center;
-		text-align: center;
-	}
-
-	.about-article h1 {
-		font-size: 1.5em;
-		color: white;
-	}
-
-	.about-article p {
-		font-size: 0.75em;
-	}
-
-	.about-article-paragraph {
-		max-width: 300px;
-	}
-
-	.about-article-paragraph p {
-		padding-top: 30px;
-		font-size: 1.3em;
-		text-align: justify;
-		letter-spacing: 0.25px;
-		line-height: 1.5em;
-	}
-
-	.project-contour {
-		background-color: #2b2b2b;
-	}
-
-	.project-tile h1 {
-		font-size: 1em;
-		border-bottom: 2px solid white;
-	}
-
-	.row {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.project-contour {
-		margin-top: 70px;
-		height: 150px;
-		width: 150px;
-	}
-
-	.project_img_1 img {
-		height: 150px;
-		width: 150px;
-	}
-
-	.project_img_2 img {
-		height: 150px;
-		width: 150px;
-	}
-
-	.project_img_3 img {
-		height: 150px;
-		width: 150px;
-	}
-
-	.project-title {
-		width: 150px;
-		height: 50px;
-		background: #2b2b2b;
-	}
-
-	.project-title a{
-		max-width: 150px;
-		margin-top: 50px;
-		padding-left: 40px;
-	}
-
-	.contact-title h1{
-		font-size: 1.5em;
-	}
-
-	.contact-link {
-		font-size: 1.5em;
-		display: block;
-		flex-direction: column;
-	}
-
-	#contact-link ul {
-		list-style-type: none;
-		display: flex;
-		align-items: center;
-		flex-direction: column;
-		margin-top: 100px;
-
-	}
-
-	#contact-link i {
-		font-size: 1.5em;
-		margin-left: 10px;
-
-	}
-
-	.contact-link h1{
-		font-size: 1.5em;
-		color: white;
-	}
-
-	#contact-link a {
-		font-size: 1.5em;	
-	}
-
-
-}
-
-@media only screen and (min-device-width : 	768px) and (max-device-width : 1024px) {
-
-
-	.nav-list {
-		display: flex;	
-		justify-content: center;
-	}
-	
-	.nav-list li a {
-		margin-right: 50px;
-	}	
-
-	.about-article h1 {
-		font-size: 1.5em;
-		color: white;
-	}
-
-	.about-article p {
-		font-size: 0.75em;
-	}
-
-	#project {
-		height: auto;
-	}
-
-	.row {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.project-contour {
-		margin: 80px 70px 20px 80px;
-		height: 150px;
-		width: 150px;
-	}
-
-	.project_img_1 img {
-		height: 180px;
-		width: 180px;
-	}
-
-	.project_img_2 img {
-		height: 180px;
-		width: 180px;
-	}
-
-	.project_img_3 img {
-		height: 180px;
-		width: 180px;
-	}
-
-	.project-title {
-		width: 180px;
-		height: 50px;
-		background: #2b2b2b;
-	}
-
-	.project-title a {
-		max-width: 100px;
-		margin-top: 50px;
-		padding-left: 50px;
-	}
-
-	.project-tile h1 {
-		font-size: 1.5em;
-		border-bottom: 4px solid white;
-	}
-
-	#contact-link ul {
-		list-style-type: none;
-		display: flex;
-		align-items: center;
-		flex-direction: column;
-
-	}
-
-	
-}
-
-@media only screen and (min-device-width : 	2560px){
-
-	.nav-list {
-		max-width: 2400px;
-	}
-}
+/******************************************** contact fin****************************/
