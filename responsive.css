@@ -8,6 +8,13 @@
 	}
 /***************************************MENU*****************************************************/
 /**************************************WORK*******************************************************/
+	
+	#projects {
+		height: 2350px;
+		width: 100%;
+		background-color: #21203a; 
+	}	
+
 	.about-article h1 {
 		font-size: 1.5em;
 		color: white;
@@ -178,13 +185,18 @@
 		height: auto;
 	}
 
+	#projects {
+		height: 1600px;
+		width: 100%;
+	}
+
 	.row {
 		display: flex;
 		justify-content: space-around;
 	}
 
 	.project-contour {
-		margin: 30px 50px 40px 50px;
+		margin: 30px 50px 40px 30px;
 		height: 150px;
 		width: 150px;
 	}
@@ -237,6 +249,7 @@
 
 	}
 
+
 /*******************************************WORK*****************************************************/
 /*******************************************CONTACT*****************************************************/
 
@@ -245,6 +258,7 @@
 		display: inline-block;
 		align-items: center;
 		flex-direction: column;
+		margin-top: 1%;
 		margin-left: 40%;
 		margin-right: auto;
 	}
@@ -258,5 +272,10 @@
 
 	.nav-list {
 		max-width: 2400px;
+	}
+
+	#projects {
+	height: 3000px;
+	width: 100%;
 	}
 }
